@@ -2,7 +2,7 @@
 <html lang="en" ng-app="uHunt">
 <head>
   <meta charset="utf-8">
-  <title>uHunt</title>
+  <title>uHuntJia</title>
   <link rel="stylesheet" href="uhunt.css"/>
   <link rel="shortcut icon" href="images/uva-rounded.png" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -60,7 +60,7 @@
 
     // Set the default statistics to be the author of uHunt >:).
     if (!uhunt_util.parse_uid_from_path($location.path())) {
-      $location.path('/id/339');
+      $location.path('/id/');
     }
 
     $rootScope.$on('$locationChangeSuccess', function (event) {
@@ -81,7 +81,7 @@
   <table cellspacing="0" cellpadding="0">
   <tr>
     <td><img border="0" src="images/uva.png" height="70" width="70" style="padding-right:15px"></td>
-    <td><span style="font-size:40px; font-family:Arial; font-weight:bold;">uHunt</span><br>
+    <td><span style="font-size:40px; font-family:Arial; font-weight:bold;">uHuntJia</span><br>
       <span style="font-size:12px; font-family: verdana; font-style: italic; ">hunt problems that matter</span><br>
     </td>
   </tr>

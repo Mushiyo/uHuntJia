@@ -42,7 +42,7 @@
       <tr ng-repeat="u in ranklist" style="font-weight:{{u.font_weight}};" height="17">
         <td align=center>{{u.rank}}</td>
         <td><a class='ellipsis' style='margin-left:5px; width:{{200 - 10}}px' target='_blank'>{{u.name}}</a></td>
-        <td><a class='ellipsis' style='margin-left:5px; width:{{100 - 10}}px' target='_blank' href='id/{{u.userid}}'>{{u.username}}</a></td>
+        <td><a class='ellipsis' style='margin-left:5px; width:{{100 - 10}}px' target='_blank' href='#/id/{{u.userid}}'>{{u.username}}</a></td>
         <td align=center>{{u.ac}}</td>
         <td align=center>{{u.nos}}</td>
         <td align=center>{{u.activity[0] || '-'}}</td>

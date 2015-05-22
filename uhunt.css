@@ -60,7 +60,8 @@ a.sub_best  { font-weight: bold; }
 
 .scroll-down-able { overflow-y: auto; word-wrap: break-word; }
 
-.cpbook-ed2 { background: #A88A6F url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAYAAABvWArbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABRSURBVEhLY7gwwek/EwMQjBKjYTCaDoZtNvj95Q3Ib4wMTIyMQIKBkQlIMAERIyMzkGACEgxgFjOIAMtCJGBKGEDaIBKjpcVoGIwWloMyGwAAsdgI1MBn+dcAAAAASUVORK5CYII=) 50% 50% repeat-x; }
+/* .cpbook-ed2 { background: #A88A6F url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAYAAABvWArbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABRSURBVEhLY7gwwek/EwMQjBKjYTCaDoZtNvj95Q3Ib4wMTIyMQIKBkQlIMAERIyMzkGACEgxgFjOIAMtCJGBKGEDaIBKjpcVoGIwWloMyGwAAsdgI1MBn+dcAAAAASUVORK5CYII=) 50% 50% repeat-x; }*/
+.cpbook-ed2 { background: #DA70D6 }
 .cpbook-ed3 { background: #11BB55; }
 .cpbook-chapter-selected { background-color: #E6E6FF; }
 .cpbook-blue-border { border: 1px solid blue; }
