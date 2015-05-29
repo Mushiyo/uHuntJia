@@ -345,7 +345,7 @@ angular.module('uHunt.cpbook', ['uHunt.base'])
     link: function (scope, element, attrs) {
       console.time('CpBookCtrl');
       var cpbook_chapters = [ cpbook_1ed, cpbook_2ed, cpbook_3ed ];
-      var nth = ['1st Edition', '2nd Edition', 'Training Guide'];
+      var nth = ['1st', '2nd', '3rd'];
       var color = ['blue', 'purple', 'green'];
       var img = ['images/bac1st.jpg', 'images/bac2nd.jpg', 'images/TrainingGuide.jpg'];
       var link = [
