@@ -20,7 +20,7 @@
     <thead>
       <tr class="tablebar cpbook-ed{{edition+1}}" style="height:30px">
       <!-- // #97683E -->
-        <th style="border:0; color:white" colspan="3">{{nth_ed}} Edition's Exercises
+        <th style="border:0; color:white" colspan="3">{{nth_ed}}'s Exercises
           <span style="font-weight:normal">(switch to: 
           <a ng-click="switch_edition(0)" style="font-weight:bold; color:{{color1}}; cursor:pointer">I</a>,
           <a ng-click="switch_edition(1)" style="font-weight:bold; color:{{color2}}; cursor:pointer">II</a>,
@@ -39,7 +39,7 @@
     </thead>
     <tbody class="selectable-table">
       <tr height="22" ng-repeat="c in chapters" ng-class="{'cpbook-chapter-selected': $index==chapter}">
-        <td nowrap style="padding:0 5px 0 5px; font-size:12px; border:0px; cursor:pointer" ng-click="set_chapter($index)">{{$index + 1}}. {{c.title}}</td>
+        <td nowrap style="padding:0 5px 0 5px; font-size:12px; border:0px; cursor:pointer" ng-click="set_chapter($index)">{{c.title}}</td>
         <td nowrap width="85" style="padding:0 5px 0 5px; cursor:pointer;" ng-click="set_chapter($index, 'Starred')" ng-class="{
           'cpbook-blue-border': is_selected_and('Starred', $index),
           'cpbook-white-border': not_is_selected_and('Starred', $index)
@@ -71,7 +71,8 @@
   2. 本站的source code置於<a target="_blank" href="https://github.com/Mushiyo/uHuntJia">這裡</a><br>
   3. 本站管理者為《算法競賽入門經典》系列的讀者，本站應該可算是某種書迷網站。（一般的書迷網站應該不會長這個樣子w）<br>
   4. 這份題單是以半手動的方式建立，雖然作者已盡力確保它的正確性，但仍難免有所錯誤。若你發現任何錯誤的地方，請至<a target="_blank" href="https://github.com/Mushiyo/uHuntJia/issues">這裡</a>留言回報。若有任何建議或意見也歡迎留言。<br>
-  5. 由於網站使用的域名及空間皆為免費資源，如果網站某天突然打不開為正常現象，請耐心等待數小時至數天後再試。
+  5. 有星號（★）的題目為書中提到的必做題<br>
+  6. 由於網站使用的域名及空間皆為免費資源，如果網站某天突然打不開為正常現象，請耐心等待數小時至數天後再試。
   <!--<a target="_blank" href="http://www.comp.nus.edu.sg/~stevenha/">Steven Halim</a> and I published the <a target="_blank" href="http://sites.google.com/site/stevenhalim/">Competitive Programming</a> book which is targetted
   to help regular computer science students to quickly get up and running for the
   <a target="_blank" href="http://cm.baylor.edu/welcome.icpc">ACM ICPC</a> as well as <a target="_blank" href="http://www.ioinformatics.org/index.shtml">IOI</a>.
