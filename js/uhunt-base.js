@@ -142,6 +142,8 @@ s(d)).toLowerCase()},
       2: { name: 'Java',    color: 'red' },
       3: { name: 'C++',     color: 'blue' },
       4: { name: 'Pascal',  color: 'black' },
+      5: { name: 'C++11',   color: 'darkblue' },
+      6: { name: 'Python',  color: '#3673a5' },
     },
     // To make sure the local time is later than server time (so no negative time shown).
     'delta_time': {
