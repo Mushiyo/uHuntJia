@@ -619,7 +619,7 @@ s(d)).toLowerCase()},
     // replace: true,
     scope: { uhuntProblemTitle:'@', width:'@' },
     template:
-      '<a class="ellipsis" style="margin-left:5px; width:{{width - 60 - algorithmist_width}}px; color:black;" target="_blank" ' +
+      '<a class="ellipsis" style="margin-left:5px; width:{{width - 60 - algorithmist_width - 20}}px; color:black;" target="_blank" ' +
         'href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem={{p.pid}}">' +
         '{{title}} ' +
       '</a>',
@@ -640,7 +640,8 @@ s(d)).toLowerCase()},
 .directive('uhuntDiscuss', function (uhunt_problems, uhunt) {
   return {
     template:
-      '<span ng-if="exists"><a class="nou" target="_blank" href="http://www.algorithmist.com/index.php/UVa_{{number}}">&pi;</a> | </span>' +
+      '<span ng-if="exists"><a class="nou" target="_blank" href="http://www.algorithmist.com/index.php/UVa_{{number}}">&pi;</a> |</span>' +
+      '<a class="nou" target="_blank" href="https://www.udebug.com/UVa/{{number}}"><img src="images/udebug.png" height="12px" width="12px"></img></a>| ' +
       '<a class="nou" target="_blank" href="http://acm.uva.es/board/search.php?keywords={{number}}">discuss</a>',
     link: function (scope, element, attrs) {
       scope.number = attrs.uhuntDiscuss;
