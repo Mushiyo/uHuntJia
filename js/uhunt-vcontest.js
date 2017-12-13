@@ -38,7 +38,7 @@ angular.module('uHunt.vcontest', ['uHunt.base'])
         uhunt_rpc.vcontest_gen(c, function (res) {
           console.log('ok = ' + res.ok);
           if (res.ok) {
-            var url = 'http://uhunt.felix-halim.net/vcontest/'+ res.id;
+            var url = 'http://uhunt.onlinejudge.org/vcontest/'+ res.id;
             scope.vcontest_link_href = url;
             scope.vcontest_link = url;
           } else {

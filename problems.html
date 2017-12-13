@@ -43,7 +43,7 @@ oReq.onload = function reqListener() {
   for (var i = 0; i < rank.length; i++) {
     var r = rank[i];
     s += '<tr><td>' + r.sid + '<td>' + r.rank +
-      '<td><a href="http://uhunt.felix-halim.net/id/'+ r.uid +'" target="_blank">' + r.name + ' (' + r.uname + ')</a>' +
+      '<td><a href="http://uhunt.onlinejudge.org/id/'+ r.uid +'" target="_blank">' + r.name + ' (' + r.uname + ')</a>' +
       '<td>' + format_ver(r.ver) +
       '<td>' + format_lan(r.lan) +
       '<td>' + r.run +
@@ -51,7 +51,7 @@ oReq.onload = function reqListener() {
   }
   document.getElementById('problem_ranklist').innerHTML = s;
 };
-oReq.open("get", "http://uhunt.felix-halim.net/api/p/rank/" + problem_id + "/" + start_rank + "/" + ranklist_size, true);
+oReq.open("get", "http://uhunt.onlinejudge.org/api/p/rank/" + problem_id + "/" + start_rank + "/" + ranklist_size, true);
 oReq.send();
 </script>
 
